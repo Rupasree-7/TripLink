@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: triplink-backend
+    env: node
+    rootDirectory: designated-driver-mern/server   # Updated to match your folder structure
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "20.x"
+      - key: MONGODB_URI
+        value: "your_mongodb_connection_string_here"  # Use environment variable for MongoDB

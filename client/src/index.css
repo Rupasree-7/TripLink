@@ -1,0 +1,92 @@
+/* Global dark theme */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1117;
+  color: #e4e6eb;
+}
+
+a {
+  text-decoration: none;
+  color: #58a6ff;
+}
+
+button {
+  cursor: pointer;
+  background: linear-gradient(90deg, #58a6ff, #1f6feb);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #1f6feb, #58a6ff);
+  box-shadow: 0px 0px 10px #58a6ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #161b26;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header h1 {
+  color: #58a6ff;
+}
+
+.header nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+  background: linear-gradient(135deg, #0d1117, #161b26);
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  background: rgba(88, 166, 255, 0.15);
+  box-shadow: 0 0 15px #58a6ff;
+}

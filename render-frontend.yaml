@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: triplink-frontend
+    branch: main
+    buildCommand: npm install && npm run build
+    publishDirectory: client/build

@@ -1,0 +1,42 @@
+.booking-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(135deg, #0d1117, #161b26);
+}
+
+.booking-card {
+  background: rgba(255,255,255,0.05);
+  padding: 2.5rem 3rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(88,166,255,0.4);
+  width: 400px;
+}
+
+.booking-card h2 {
+  margin-bottom: 1.5rem;
+  color: #58a6ff;
+  text-align: center;
+}
+
+.booking-card input, .booking-card select {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,0.1);
+  color: #e4e6eb;
+}
+
+.booking-card input:focus, .booking-card select:focus {
+  border: 1px solid #58a6ff;
+}
+
+.booking-card button {
+  width: 100%;
+  margin-top: 0.5rem;
+}
